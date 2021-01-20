@@ -1,0 +1,346 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content {
+    display: block;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.warning-block {
+    padding-top: 9px;
+    width: 100%;
+    height: 27px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.warning-text {
+    font-size: 12px;
+    line-height: 7px;
+    letter-spacing: 0px;
+}
+
+
+.small-menu {
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    text-align: right;
+    display: block;
+}
+
+.small-menu img {
+    display: inline-block;
+}
+
+.small-menu .lens {
+    width: 27px;
+    height: 27px;
+}
+.small-menu .bag {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 19px;
+    height: 24px;
+}
+.small-menu .hart {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 17px;
+    height: 15px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo .logomark {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 87px;
+    width: 67px;
+}
+.logo .tagline {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 79px;
+    width: 286px;
+}
+
+.nav-bar {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.nav-bar a {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.big-block {
+    margin-top: 50px;
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+}
+.black {
+    color: white;
+    background-color: black;
+    height: 304px;
+}
+.big-block-text {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 27px;
+}
+.black h2 {
+    position: relative;
+    left: 20px;
+    font-size: 61px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.black p {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    width: 834px;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
+
+.star-block {
+    width: 1024px;
+    height: 147px;
+    padding-top: 65px;
+    background-image: url('../img/stars.png');
+}
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pink {
+    display: flex;
+    height: 540px;
+    flex-wrap: wrap;
+    background-color: #F4BAB5;
+    margin-bottom: 50px;
+}
+.main_photo {
+    text-align: center;
+    display: block;
+    width: 450px;
+}
+
+.img-background {
+    padding-top: 130px;
+    display: block;
+    height: 452px;
+    background-image: url("../img/border.png");
+    background-size: cover;
+}
+
+.live {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    width: 156px;
+    height: 22px;
+    border-radius: 8px;
+    border: solid 1px black;
+}
+
+.circle {
+    position: relative;
+    right: 67px;
+    top: 4px;
+}
+
+.recording {
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+}
+
+.pink-text {
+    padding-top: 90px;
+    display: block;
+    width: 500px;
+}
+
+.pink-text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pink-text h2 {
+    font-family: "Ogg-Roman";
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 63px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pink-text p {
+  width: 300px;
+  margin-left: 95px;
+  height: 113px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rectangle {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+    width: 190px;
+    height: 34px;
+    border: solid 1px black;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.item-indicator {
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.circle1 {
+    clip-path: circle(50%);
+    height: 6em;
+    width: 6em;
+}
+
+.girl-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.girl-list h3 {
+    margin-top: 12px;
+}
+
+.image-block {
+    display: block;
+    background-color: blue;
+    padding-top: 40px;
+    width: 33%;
+    margin-bottom: 25px;
+}
+.background-girl-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 160px;
+    height: 194px;
+    background-image: url("../img/girl-background.png");
+    background-size: cover;
+}
+
+.tringle {
+    background-position: top 0 left 25%;
+    background-image: url("../img/figures/Triangle.png");
+    background-repeat: no-repeat;
+    
+}
+.tringle2 {
+    background-position: top 0 right 0;
+    background-image: url("../img/figures/Triangle2.png");
+    background-repeat: no-repeat;
+    
+}
+
+.dick {
+    background-position: top 50% right 40%;
+    background-image: url("../img/figures/dick.png");
+    background-repeat: no-repeat;
+}
+.dick2 {
+    background-position: top 50% right 40%;
+    background-image: url("../img/figures/dick2.png");
+    background-repeat: no-repeat;
+}
+
+.oval {
+    background-position: top 0 right 20%;
+    background-image: url("../img/figures/Oval.png");
+    background-repeat: no-repeat;
+}
+.oval2 {
+    background-position: top 0 left 20%;
+    background-image: url("../img/figures/Oval2.png");
+    background-repeat: no-repeat;
+}
+
+.board {
+    background-position: top 10% left 40%;
+    background-image: url("../img/figures/board.png");
+    background-repeat: no-repeat;
+}
+
+.board2 {
+    background-position: top 10% left 40%;
+    background-image: url("../img/figures/board2.png");
+    background-repeat: no-repeat;
+}
+
+.star {
+    background-position: right 0 bottom 0;
+    background-image: url("../img/figures/star.png");
+    background-repeat: no-repeat;
+}
+.star2 {
+    background-position: right 0 top 0;
+    background-image: url("../img/figures/star2.png");
+    background-repeat: no-repeat;
+}
+
+.fiveangle {
+    background-position: top 0 left 20%;
+    background-image: url("../img/figures/fiveangle.png");
+    background-repeat: no-repeat;
+}
+.fiveangle2 {
+    background-position: bottom 20% left 20%;
+    background-image: url("../img/figures/fiveangle2.png");
+    background-repeat: no-repeat;
+}
+
+.bag {
+    background-position: 1vw -4vh;
+    background-image: url("../img/staf/bag1.png");
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
