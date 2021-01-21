@@ -2,10 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.background-color {
+    width: 100%;
+}
 
+.show {
+    display: none;    
+}
 .content {
     display: block;
-    width: 1024px;
+    max-width: 1024px;
+    min-width: 320px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -82,8 +89,6 @@ body {
     margin-right: 80px;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 .nav-bar a {
     text-transform: uppercase;
@@ -98,35 +103,36 @@ body {
     text-align: center;
 }
 .black {
+    word-wrap:initial;
     color: white;
     background-color: black;
-    height: 304px;
+    padding-bottom: 50px;
 }
-.big-block-text {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 27px;
-}
+
 .black h2 {
     position: relative;
-    left: 20px;
     font-size: 61px;
     text-align: center;
     margin-bottom: 30px;
 }
 .black p {
     display: block;
-    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
-    width: 834px;
-    margin-bottom: 5px;
+    line-height: 27px;
+    word-wrap: break-word;
+    font-size: 16px;
+    max-width: 834px;
     font-weight: 200;
 }
 
 
 .star-block {
-    width: 1024px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1024px;
     height: 147px;
     padding-top: 65px;
     background-image: url('../img/stars.png');
@@ -138,11 +144,16 @@ h3 {
 }
 
 .pink {
-    display: flex;
-    height: 540px;
-    flex-wrap: wrap;
     background-color: #F4BAB5;
-    margin-bottom: 50px;
+}
+.pink-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    height: 600px;
 }
 .main_photo {
     text-align: center;
@@ -181,15 +192,14 @@ h3 {
     bottom: 4px;
 }
 
-.pink-text {
+.pink-text.name {
     padding-top: 90px;
+    padding-bottom: 40px;
     display: block;
-    width: 500px;
 }
 
 .pink-text h4 {
     font-size: 20px;
-    font-weight: 400;
     line-height: 37px;
     text-align: center;
     margin-bottom: 10px;
@@ -198,18 +208,15 @@ h3 {
 .pink-text h2 {
     font-family: "Ogg-Roman";
     font-size: 61px;
-    font-weight: 400;
     line-height: 63px;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .pink-text p {
   width: 300px;
-  margin-left: 95px;
-  height: 113px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 30px;
   text-align: center;
 }
@@ -229,7 +236,9 @@ h3 {
 }
 
 .item-indicator {
-    padding-top: 20px;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
     display: block;
     width: 100%;
@@ -252,7 +261,6 @@ h3 {
 
 .image-block {
     display: block;
-    background-color: blue;
     padding-top: 40px;
     width: 33%;
     margin-bottom: 25px;
@@ -338,9 +346,195 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.bag {
-    background-position: 1vw -4vh;
-    background-image: url("../img/staf/bag1.png");
-    background-repeat: no-repeat;
-    z-index: 1000;
+.footer {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    height: 246px;
+}
+
+.footer-content {
+    display: flex;
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+
+.footeritem {
+    display: block;
+    width: 125px;
+    font-size: 11px;
+}
+
+.footeritem.big {
+    line-height: 17px;
+    width: 250px;
+}
+
+
+.clauses {
+    line-height: 17px;
+    margin-top: 10px;
+
+}
+
+input.email {
+    background: #f2f2f2;
+    line-height: 20px;
+    padding-bottom: 10px;
+    width: 225px;
+    border-bottom: 2px solid rgb(136, 136, 136);
+}
+
+input.button {
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+    top: 6px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .pink-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+        height: 880px;
+    }
+    .pink-text.name {
+        order: -1;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .pink-text.name h4 {
+        font-size: 30px;
+    }
+    .main_photo {
+        
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .live {
+        width: 300px;
+        height: 45px;
+        border-radius: 16px;
+        border: solid 1px black;
+    }
+    .recording {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .rectangle {
+        background-color: black;
+        color: white;
+    }
+    .main_photo {
+        position: relative;
+        bottom: 30px;
+    }
+    .live .circle {
+        position: relative;
+        top: 40%;
+        right: 40%;
+    }
+    .image-block {
+        width: 50%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .clauses {
+        display: None;
+    }
+    .footeritem.big {
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        line-height: 30px;
+        width: 300px;
+        order: -3;
+    }
+    .footeritem {
+        border: rgb(136, 136, 136);
+        border-top: solid;
+        border-width: 1px;
+        padding-top: 7px;
+        width: 100%;
+        line-height: 30px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-content {
+        margin-bottom: 40px;
+        padding-top: 40px;
+        width: 100%;
+    }
+    .double-line {
+        border-bottom: solid;
+        border-width: 1px;
+    }
+    .footer {
+        width: 100%;
+        height: 450px;
+    }
+    .hide {
+        display: none;
+    }
+    .footeritemtext {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .title {
+        display: inline;
+    }
+    .show {
+        display: inline;
+    }
+    .pink-text h2 {
+        font-family: "Ogg-Roman";
+        font-size: 58px;
+        line-height: 63px;
+        text-align: center;
+    }
+
+    input.email {
+        width: 300px;
+        border-bottom: 2px solid rgb(136, 136, 136);
+    }
+    input.button {
+        font-size: 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .footeritem.big {
+        position: relative;
+        font-size: 17px;
+        line-height: 24px;
+        width: 325px;
+        left: 15px;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
